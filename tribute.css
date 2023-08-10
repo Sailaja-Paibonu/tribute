@@ -1,0 +1,41 @@
+
+*{
+    font-family:'Tahoma';
+    box-sizing:border-box;
+  }
+  main{
+    margin:30px 5px;
+    background-color:#F3E1EC;
+  }
+  h1,h2,h3{
+    text-align:center;
+  }
+  #title{
+    padding:15px 0;
+    text-align:center;
+  }
+  #img-caption{
+  margin:15px 0;
+  text-align:center;
+  }
+  #img-div{
+  margin:30px auto;
+  background-color:white;
+  width:98%;
+  padding:20px 0;
+  }
+  #img-div #image{
+    width:80%;
+    margin:auto;
+    display:block;
+    max-width:100%;
+  }
+  #tribute-info #content{
+    margin:20px auto;
+    width:50%;
+  }
+  #content li{
+    margin:20px 0;
+  }
+  
+  
