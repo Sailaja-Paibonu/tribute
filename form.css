@@ -1,0 +1,41 @@
+body{
+    font-family:monospace;
+    color:white;
+    background-color:rgba(10,15,200,0.9);
+    font-size:1.2em;
+  }
+  #survey-form{
+    width:60%;
+    margin:30px auto;
+    background-color:rgba(0,0,0,0.9);
+    padding:20px;
+    box-shadow:0 0 20px;
+  }
+  h1,p{
+    text-align:center;
+  }
+  #submit{
+    background-color:rgba(20,255,120,0.7);
+    color:white;
+    font-size:15px;
+    width:100%;
+    margin-top:10px;
+  }
+  label{
+    display:block;
+    margin-bottom:5px;
+    margin-top:15px;
+  }
+  input,select,textarea{
+    width:100%;
+    padding:10px;
+    border:2px solid white;
+  }
+  input[type="radio"],
+  input[type="checkbox"]{
+    width:auto; 
+  }
+  input:hover{
+    box-shadow:0 0 10px white;
+    border:2px solid white;
+  }
