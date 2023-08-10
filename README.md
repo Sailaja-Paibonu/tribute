@@ -1,1 +1,2 @@
 # tribute
+![tribute](/image.jpg)
