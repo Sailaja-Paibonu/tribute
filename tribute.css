@@ -1,41 +1,46 @@
 
 *{
-    font-family:'Tahoma';
-    box-sizing:border-box;
-  }
-  main{
-    margin:30px 5px;
-    background-color:#F3E1EC;
-  }
-  h1,h2,h3{
-    text-align:center;
-  }
-  #title{
-    padding:15px 0;
-    text-align:center;
-  }
-  #img-caption{
-  margin:15px 0;
+  font-family:'Verdana';
+  box-sizing:border-box;
+}
+h1,h2,h3{
+  margin-top:50px;
+}
+main{
+  margin:30px 5px;
+  background-color:#F1E1EC;
   text-align:center;
-  }
-  #img-div{
-  margin:30px auto;
-  background-color:white;
-  width:98%;
-  padding:20px 0;
-  }
-  #img-div #image{
-    width:80%;
-    margin:auto;
-    display:block;
-    max-width:100%;
-  }
-  #tribute-info #content{
-    margin:20px auto;
-    width:50%;
-  }
-  #content li{
-    margin:20px 0;
-  }
-  
-  
+  padding-bottom:20px;
+}
+#title{
+  text-align:center;
+  padding:30px 0;
+}
+#img-caption{
+margin:15px 0;
+text-align:center;
+padding-bottom:30px;
+}
+#img-div{
+margin:30px auto;
+background-color:white;
+width:98%;
+
+}
+#img-div #image{
+  width:80%;
+  margin:auto;
+  display:block;
+  max-width:100%;
+}
+#content{
+width:48%;
+text-align:left;
+margin:20px auto;
+}
+#content>ul>li{
+  margin-top:25px;
+}
+#content>ul{
+  margin-bottom:50px;
+}
